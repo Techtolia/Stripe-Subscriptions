@@ -51,9 +51,13 @@ Customers see a "Pay now" button or an Apple Pay button, depending on what their
 Strong Customer Authentication (SCA) is a new European regulatory requirement to reduce fraud and make online payments more secure. To accept payments and meet SCA requirements, you need to build additional authentication into your checkout flow. SCA requires authentication to use at least two of the following three elements.
 
 Banks will need to start declining payments that require SCA and don't meet these criteria. Although the regulation was introduced on 14 September 2019, we expect these requirements to be enforced by regulators over the course of 2020 and 2021.
+
 3D Secure 2 - the new version of the authentication protocol rolling out in 2019 - will be the main method for authenticating online card payments and meeting the new SCA requirements. This new version introduces a better user experience that will help minimise some of the friction that authentication adds into the checkout flow.
+
 *The application supports 3D Secure 2*
+
 The Payment Intents API that uses Stripe's SCA logic to apply the right exemption and trigger 3D Secure when necessary.
+
 *The application uses the Payment Intents API for card payments*
 
 
